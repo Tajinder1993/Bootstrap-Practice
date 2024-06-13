@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work with the utility classes</title>    
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        span{
+            display: inline-block;
+            height:80px;
+            width: 80px;
+            padding: 20px;
+            margin: 4;
+            background-color: rgb(216, 122, 138);
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="conatiner my-3">
+    <!-- work with the borders -->
+        <span class="border border-2 border-primary"></span>
+        <span class="border border-0"></span>
+        <span class="border border-top-0 border-primary"></span>
+        <span class="border border-bottom-0 border-primary"></span>
+        <span class="border border-start-0 border-primary"></span>
+        <span class="border border-end-0 border-primary"></span>
+
+        <br>
+        <span class="border border-primary"></span>
+        <span class="border-top border-primary"></span>
+        <span class="border-bottom border-primary"></span>
+        <span class="border-start border-primary"></span>
+        <span class="border-end border-primary"></span>
+
+        <br>
+        <!-- working with the border width -->
+        <span class="border border-1 border-primary"></span>
+        <span class="border border-2 border-primary"></span>
+        <span class="border border-3 border-primary"></span>
+        <span class="border border-4 border-primary"></span>
+        <span class="border border-5 border-primary"></span>
+
+        <br>
+        <!-- working with the border colors -->
+        <span class="border border-2 border-primary"></span>
+        <span class="border border-2 border-info"></span>
+        <span class="border border-2 border-success"></span>
+        <span class="border border-2 border-warning"></span>
+        <span class="border border-2 border-danger"></span>
+        <span class="border border-2 border-secondary"></span>
+
+
+        <!-- work with the rounded borders -->
+        <br>
+        <span class="rounded"></span>
+        <span class="rounded-start"></span>
+        <span class="rounded-end"></span>
+        <span class="rounded-top"></span>
+        <span class="rounded-bottom"></span>
+        <span class="rounded-circle"></span>
+        <span class="rounded-pill" style="width:20%"></span>
+        <br>
+        <span class="rounded-1"></span>
+        <span class="rounded-2"></span>
+        <span class="rounded-3"></span>
+        <span class="rounded-4"></span>
+        <span class="rounded-5"></span>
+
+
+        <!-- work with the clearfix and float -->
+        <div class="clearfix">
+            <span class="float-start">hello</span>
+            <span class="float-end">hello</span>
+        </div>
+
+        <!-- center align an element -->
+        <br>
+        <div class="mx-auto bg-warning" style="width: 50%;">hello</div>
+
+        <!-- working with the width -->
+        <br>
+        <div class="w-25 bg-success">width-25%</div>
+        <div class="w-50 bg-success">width-50%</div>
+        <div class="w-75 bg-success">width-75%</div>
+        <div class="w-100 bg-success">width-100%</div>
+        <div class="mw bg-secondary">Max Width</div>
+        <div class="w-auto bg-info">width auto</div>
+
+        <!-- work with the heights -->
+        <br>
+        <div style="height:200px;background-color:#ddd">
+            <div class="h-25 d-inline-block bg-primary">Height-25%</div>
+            <div class="h-50 d-inline-block bg-secondary">Height-50%</div>
+            <div class="h-75 d-inline-block bg-primary">Height-75%</div>
+            <div class="h-100 d-inline-block bg-warning">Height-100%</div>
+            <div class="h-auto d-inline-block bg-primary">Height-auto</div>
+            <div class="mh d-inline-block bg-secondary">Max height</div>
+        </div>
+
+        <!-- work with shadows -->
+        <div class="shadow p-4 m-4 bg-light"> element with the shadow</div>
+        <div class="shadow-none p-4 m-4 bg-light"> element with no shadow</div>
+        <div class="shadow-lg p-4 m-4 bg-light"> element with the large shadow</div>
+        <div class="shadow-sm p-4 m-4 bg-light"> element with the small shadow</div>
+
+        <!-- work with the vertical alignment -->
+        <br>
+        <p class="align-baseline">hello</p>
+        <p class="align-top">hello</p>
+
+    </div>
+
+    <!-- work with the aspect ratio -->
+    <!-- Aspect ratio 1:1 -->
+    <div class="ratio ratio-1x1">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </div>
+
+    <br>
+
+    <!-- Aspect ratio 21:9 -->
+    <div class="ratio ratio-21x9">
+         <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </div>
+
+    <!-- work with visibility -->
+    <div class="visible">i am visible</div>
+    <div class="invisible">i am invisible</div>
+
+    <!-- work with close button -->
+    <button type="button" class="btn-close"></button>
+</body>
+</html>

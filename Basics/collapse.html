@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Cick on me !!!!!!</button>
+    <div class="collapse" id="demo">
+        <p>Hi!!!!!!! i am Tajinder Kaur ....................</p>
+    </div>
+
+    <div Id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <button type="button" class=" btn btn-primary"data-bs-toggle="collapse" data-bs-target="#acc1">Hi i am Tajinder</button>
+            </div>
+            <div class="collapse" id="acc1" data-bs-parent="#accordion">
+                <div class="card-body">
+                    <p>............................i am the best.....................................</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <button type="button" class=" btn btn-primary"data-bs-toggle="collapse" data-bs-target="#acc2">Hi i am Satwinder</button>
+            </div>
+            <div class="collapse" id="acc2" data-bs-parent="#accordion">
+                <div class="card-body">
+                    <p>...........................i am techie....................................</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div data-bs-toggle="collapse" data-bs-target="#acc3" type="button" class="btn btn-primary">hi i am Surinder</div>
+            </div>
+            <div class="collapse" id="acc3" data-bs-parent="accordion">
+                <div class="card-body">
+                    <p>.................................i am designer...............................</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
